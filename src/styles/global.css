@@ -3,9 +3,9 @@
   --color-primary: #2e2e2e;
   --color-secondary: #f86061;
   --color-background: #f8f9fa;
+  --color-border: #f2f2f2;
   --color-text: #676767;
   --color-navBarText: #4d4d4d;
-
   /* Typography */
   --font-family-base: "Arial", sans-serif;
 }
@@ -158,6 +158,9 @@ input,
 textarea,
 select {
   font: inherit;
+}
+* {
+  box-sizing: border-box;
 }
 
 /* CSS VARIABLES */

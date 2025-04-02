@@ -4,9 +4,9 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div>
+    <>
       <header>
-        <div className={styles.HeaderContainer}>
+        <div className={styles.headerContainer}>
           <div className={styles.logoContainer}>
             <img src="/img/svg/siteLogo.svg" alt="siteLogo" />
           </div>
@@ -31,7 +31,7 @@ const Header = () => {
             <img
               className={styles.searchLogo}
               src="/img/svg/search.svg"
-              alt=""
+              alt="search"
             />
             <div className={styles.cartContainer}>
               <img
@@ -45,7 +45,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-    </div>
+    </>
   );
 };
 
