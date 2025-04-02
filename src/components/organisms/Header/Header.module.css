@@ -1,0 +1,81 @@
+.HeaderContainer {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 32px;
+  width: 1170px;
+}
+.logoContainer {
+  margin-top: 7px;
+  margin-right: 200px;
+  width: 155px;
+}
+.navBar {
+  margin-right: 129px;
+  width: 312px;
+  height: 24px;
+}
+.navBar ul {
+  display: flex;
+  gap: 39px;
+  transform: translate(0, 65%);
+}
+.navBar ul li {
+  cursor: pointer;
+  color: var(--color-text);
+}
+.navBar li:hover {
+  transition: background 500ms ease-in-out;
+  color: var(--color-secondary);
+}
+.HeaderContainer .searchInput {
+  position: relative;
+  width: 300px;
+  input[type="search"]::-webkit-search-decoration,
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+  }
+}
+.HeaderContainer .searchInput input {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding-left: 49px;
+  width: 289px;
+  height: 54px;
+}
+
+.HeaderContainer .searchInput .searchLogo {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+}
+.HeaderContainer .searchInput .cartContainer {
+  position: absolute;
+  top: 19px;
+  right: 20px;
+  border-left: 1px solid #f2f2f2;
+
+  width: 50px;
+  height: 24px;
+}
+.HeaderContainer .searchInput .cartIcon {
+  margin-left: 20px;
+  width: 22px;
+  height: 22px;
+}
+.HeaderContainer .searchInput .counter {
+  display: flex;
+  position: absolute;
+  top: -25px;
+  left: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--color-secondary);
+  width: 28px;
+  height: 28px;
+  color: var(--color-background);
+  font-size: 14px;
+}

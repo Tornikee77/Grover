@@ -1,10 +1,10 @@
 :root {
   /* Colors */
-  --color-primary: #007bff;
-  --color-secondary: #6c757d;
-  --color-accent: #ff5722;
+  --color-primary: #2e2e2e;
+  --color-secondary: #f86061;
   --color-background: #f8f9fa;
-  --color-text: #212529;
+  --color-text: #676767;
+  --color-navBarText: #4d4d4d;
 
   /* Typography */
   --font-family-base: "Arial", sans-serif;
