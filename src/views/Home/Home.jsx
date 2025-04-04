@@ -1,5 +1,5 @@
-import Header from "../../components/organisms/Header/HEader";
-
+import Header from "../../components/organisms/Header/Header";
+import Footer from "../../components/organisms/Footer/Footer";
 const Home = () => {
   return (
     <div>
@@ -25,6 +25,8 @@ const Home = () => {
       {/*Subscribe newsletter component import here*/}
 
       {/*Footer*/}
+      <Footer />
+
       {/*Footer component import here*/}
     </div>
   );
