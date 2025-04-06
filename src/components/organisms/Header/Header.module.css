@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
   margin: 32px auto 0;
-  max-width: 1440px;
   padding: 0 135px;
   width: 100%;
+  max-width: 1440px;
 }
 .logoContainer {
   width: 155px;
@@ -18,12 +18,13 @@
   display: flex;
   gap: 39px;
 }
-.navBar ul li {
+.navBar ul li a {
   transition: color 300ms ease-in-out;
   cursor: pointer;
   color: var(--color-text);
+  text-decoration: none;
 }
-.navBar ul li:hover {
+.navBar ul a:hover {
   color: var(--color-secondary);
 }
 .headerContainer .searchInput {
