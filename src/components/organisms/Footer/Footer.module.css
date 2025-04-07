@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  max-width: 1440px;
+  max-width: 1200px;
   height: 463px;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -9,9 +9,10 @@
 
 .footerContainer {
   display: flex;
-  max-width: 1440px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  gap: 160px;
+  justify-content: space-between;
 }
 
 .footerLeft p {
@@ -39,7 +40,6 @@
 
 .ulContainer ul li {
   margin-bottom: 10px;
-  min-width: 180px;
 }
 
 .ulContainer ul li a {
@@ -61,7 +61,7 @@
 }
 
 .footerBottom {
-  max-width: 1440px;
+  max-width: 1200px;
   width: 100%;
   display: flex;
   justify-content: space-between;
