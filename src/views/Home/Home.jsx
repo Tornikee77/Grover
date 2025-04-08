@@ -1,5 +1,9 @@
-import Header from "../../components/organisms/Header/Header";
-import Footer from "../../components/organisms/Footer/Footer";
+
+import Header from "../../components/organisms/Header/HEader";
+import WeServe from "../../components/organisms/WeServe/WeServe";
+
+
+
 const Home = () => {
   return (
     <div>
@@ -10,6 +14,7 @@ const Home = () => {
       {/*How it Works component import here*/}
 
       {/*Jobs near me*/}
+      <WeServe />   {/*არვიცოდი ეს ზუსტად სად უნდა ჩამესვა*/}
       {/*Jobs near me component import here*/}
 
       {/*99+ jobs category*/}
