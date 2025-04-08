@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Header.module.css";
-// import Logo from "./";
 
 const Header = () => {
   return (
@@ -8,15 +7,27 @@ const Header = () => {
       <header>
         <div className={styles.headerContainer}>
           <div className={styles.logoContainer}>
-            <img src="/img/svg/siteLogo.svg" alt="siteLogo" />
+            <a href="#">
+              {" "}
+              <img src="/img/svg/siteLogo.svg" alt="siteLogo" />
+            </a>
           </div>
           <div className={styles.navBar}>
             <nav>
               <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>Service</li>
-                <li>Shop</li>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">Menu</a>
+                </li>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <a href="#">Shop</a>
+                </li>
               </ul>
             </nav>
           </div>
