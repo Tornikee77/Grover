@@ -1,5 +1,7 @@
 import Header from "../../components/organisms/Header/HEader";
 import WeServe from "../../components/organisms/WeServe/WeServe";
+import DownlaodOurApp from "../../components/DownloadOurApp/DownlaodOurApp";
+import Footer from "../../components/organisms/Footer/Footer";
 
 const Home = () => {
   return (
@@ -15,7 +17,7 @@ const Home = () => {
       {/*HOME DELIVERY*/}
       {/*HOME DELIVERY component import here*/}
       {/*Download our app*/}
-      {/*Download our app component import here*/}
+      <DownlaodOurApp />
       {/*Footer*/}
       <Footer />
       {/*Footer component import here*/}
