@@ -1,8 +1,10 @@
+import Header from "../../components/organisms/Header/Header";
+import Footer from "../../components/organisms/Footer/Footer";
 const Home = () => {
   return (
     <div>
       {/*Header*/}
-      {/*Header component import here*/}
+      <Header />
 
       {/*How it Works*/}
       {/*How it Works component import here*/}
@@ -23,6 +25,8 @@ const Home = () => {
       {/*Subscribe newsletter component import here*/}
 
       {/*Footer*/}
+      <Footer />
+
       {/*Footer component import here*/}
     </div>
   );
