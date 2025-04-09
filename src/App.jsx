@@ -1,12 +1,7 @@
-import React from "react";
-import Home from "./views/Home/Home";
-
-const App = () => {
+export default function App() {
   return (
     <div>
-      <Home />
+      <h1>Hello world</h1>
     </div>
   );
-};
-
-export default App;
+}
