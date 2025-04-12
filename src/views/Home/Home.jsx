@@ -1,4 +1,4 @@
-import Header from "../../components/organisms/Header/HEader";
+import Header from "../../components/organisms/Header/Header";
 import WeServe from "../../components/organisms/WeServe/WeServe";
 import DownlaodOurApp from "../../components/DownloadOurApp/DownlaodOurApp";
 import Footer from "../../components/organisms/Footer/Footer";
