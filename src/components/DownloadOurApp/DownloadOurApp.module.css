@@ -4,7 +4,6 @@
   margin: 0 auto;
   background-color: var(--color-downloadourApp);
   width: 100%;
-  max-width: 1200px;
   height: 755px;
 }
 .contentContainer {
