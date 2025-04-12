@@ -1,12 +1,26 @@
+
 import Header from "../../components/organisms/Header/Header";
 import WeServe from "../../components/organisms/WeServe/WeServe";
 import Footer from "../../components/organisms/Footer/Footer";
+
 
 const Home = () => {
   return (
     <div>
       {/*Header*/}
       <Header />
+
+      {/*More than Faster*/}
+      {/*More than Faster component import here*/}
+      {/*What we Serve*/}
+      {/* <WeServe /> */}
+      {/*WHY CHOOSE US*/}
+      {/*WHY CHOOSE US component import here*/}
+      {/*HOME DELIVERY*/}
+      <Delivery />
+      {/*Download our app*/}
+      {/*Download our app component import here*/}
+
       {/*How it Works*/}
       {/*How it Works component import here*/}
       {/*Jobs near me*/}
@@ -20,6 +34,7 @@ const Home = () => {
       {/*Testimonials near me component import here*/}
       {/*Subscribe newsletter*/}
       {/*Subscribe newsletter component import here*/}
+
       {/*Footer*/}
       <Footer />
       {/*Footer component import here*/}
