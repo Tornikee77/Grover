@@ -1,13 +1,15 @@
-import Header from "../../components/organisms/Header/HEader";
-// import WeServe from "../../components/organisms/WeServe/WeServe";
+
+import Header from "../../components/organisms/Header/Header";
+import WeServe from "../../components/organisms/WeServe/WeServe";
 import Footer from "../../components/organisms/Footer/Footer";
-import Delivery from "../../components/organisms/Delivery/Delivery";
+
 
 const Home = () => {
   return (
     <div>
       {/*Header*/}
       <Header />
+
       {/*More than Faster*/}
       {/*More than Faster component import here*/}
       {/*What we Serve*/}
@@ -18,6 +20,21 @@ const Home = () => {
       <Delivery />
       {/*Download our app*/}
       {/*Download our app component import here*/}
+
+      {/*How it Works*/}
+      {/*How it Works component import here*/}
+      {/*Jobs near me*/}
+      <WeServe /> {/*არვიცოდი ეს ზუსტად სად უნდა ჩამესვა*/}
+      {/*Jobs near me component import here*/}
+      {/*99+ jobs category*/}
+      {/*99+ jobs category component import here*/}
+      {/*Price value*/}
+      {/*Price value component import here*/}
+      {/*Testimonials*/}
+      {/*Testimonials near me component import here*/}
+      {/*Subscribe newsletter*/}
+      {/*Subscribe newsletter component import here*/}
+
       {/*Footer*/}
       <Footer />
       {/*Footer component import here*/}
