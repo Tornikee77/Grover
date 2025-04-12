@@ -1,5 +1,6 @@
 import Header from "../../components/organisms/Header/Header";
 import WeServe from "../../components/organisms/WeServe/WeServe";
+import Footer from "../../components/organisms/Footer/Footer";
 
 const Home = () => {
   return (
