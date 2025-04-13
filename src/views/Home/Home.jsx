@@ -1,5 +1,5 @@
 import Header from "../../components/organisms/Header/Header";
-// import WeServe from "../../components/organisms/WeServe/WeServe";
+import WeServe from "../../components/organisms/WeServe/WeServe";
 import DownlaodOurApp from "../../components/DownloadOurApp/DownlaodOurApp";
 import Footer from "../../components/organisms/Footer/Footer";
 import Delivery from "../../components/organisms/Delivery/Delivery";
@@ -12,7 +12,7 @@ const Home = () => {
       {/*More than Faster*/}
       {/*More than Faster component import here*/}
       {/*What we Serve*/}
-      {/* <WeServe /> */}
+      <WeServe />
       {/*WHY CHOOSE US*/}
       {/*WHY CHOOSE US component import here*/}
       {/*HOME DELIVERY*/}
