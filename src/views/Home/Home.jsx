@@ -15,10 +15,10 @@ const Home = () => {
       {/*WHY CHOOSE US*/}
       {/*WHY CHOOSE US component import here*/}
       {/*Download our app*/}
-      <DownlaodOurApp />
+
       {/*HOME DELIVERY*/}
       <Delivery />
-      {/*Download our app*/}
+      <DownlaodOurApp />
       {/*Download our app component import here*/}
       {/*Footer*/}
       <Footer />
