@@ -1,5 +1,5 @@
 import styles from "./Delivery.module.css";
-const HomeDelivery = () => {
+const Delivery = () => {
   return (
     <div className={styles.homeDeliveryContainer}>
       <section>
@@ -34,4 +34,4 @@ const HomeDelivery = () => {
   );
 };
 
-export default HomeDelivery;
+export default Delivery;
