@@ -3,6 +3,7 @@ import WeServe from "../../components/organisms/WeServe/WeServe";
 import DownlaodOurApp from "../../components/DownloadOurApp/DownlaodOurApp";
 import Footer from "../../components/organisms/Footer/Footer";
 import Delivery from "../../components/organisms/Delivery/Delivery";
+import WhyChooseUs from "../../components/organisms/WhyChooseUs/WhyChooseUs";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       {/*What we Serve*/}
       <WeServe />
       {/*WHY CHOOSE US*/}
+      <WhyChooseUs />
       {/*WHY CHOOSE US component import here*/}
       {/*HOME DELIVERY*/}
       <Delivery />

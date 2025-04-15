@@ -1,0 +1,134 @@
+.WhyChooseUssec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10% ;
+    height: 857px;
+    gap: 10%;
+}
+.leftdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+}
+.rightdiv{
+    width: 50%;
+    gap: 15px;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.titles{
+    width: 394px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: start;
+}
+.titles h1{
+    color: #03A66B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1%;
+}
+.titles h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.explore{
+    gap: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.explore p{
+    color: #676767;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.explore button{
+    cursor: pointer;
+    background-color: #F86061;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFAFA;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+.strawberrycard{
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+    gap: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    width: 204px;
+    height: 277px;
+    background-color: white;
+
+}
+.cardtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cardtitle h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -2%;
+}
+.cardtitle span{
+    color: #A5A4A4;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+}
+.pricediv{
+    flex-direction: column;
+    padding: 0px 20px;
+    align-items: start;
+    display: flex;
+    width: 100%;
+}
+.ratediv{
+    justify-content: center;
+    gap: 2px;
+    display: flex;
+    align-items: center;
+}
+.ratediv span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.addcart{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.addcart span{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+}
+.addcart button{
+    background-color: #F54748;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
