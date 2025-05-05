@@ -8,7 +8,7 @@ import plusvg from "../../../../public/img/svg/plus.svg"
 
 const WhyChooseUs = () => {
   return (
-    <srighton className={styles.WhyChooseUssec}>
+    <section className={styles.WhyChooseUssec}>
       <div className={styles.leftdiv}>
         <div>
             <img src={CitrusVision} alt="" />
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
           <button>Explore Now</button>
         </div>
       </div>
-    </srighton>
+    </section>
   );
 };
 
