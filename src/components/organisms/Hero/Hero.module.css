@@ -1,0 +1,179 @@
+.herosec {
+  height: 819px;
+  background-color: white;
+  border-radius: 100px 40px 0px 0px;
+  padding: 30px 0px 0px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 135px;
+}
+.leftandright{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.diliverytime{
+  right: 15%;
+  top: 15%;
+  position: absolute;
+  gap: 10px;
+  align-items: center;
+  justify-content: center ;
+  display: flex;
+  padding: 15px 25px;
+  border-radius: 9px;
+  box-shadow: #676767 0px 15px 60px 0.5px;
+
+}
+.diliverytext h4{
+  font-size: 16px;
+  font-weight: 600;
+  color: #2E2E2E;
+}
+.onlybg {
+  background-color: #f5f5f5be;
+}
+.leftdiv {
+  gap: 40px;
+  padding: 100px 130px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 50%;
+}
+.rightdiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.textdiv {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.textdiv h1{
+  letter-spacing: -1%;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 88px;
+  color: #2E2E2E;
+}
+
+.textdiv p {
+  color: #676767;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5%;
+}
+.time{
+  font-weight: 500;
+  color: #f54748;
+}
+.btndiv{
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.btndiv span{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2E2E2E;
+}
+.btnone{
+  cursor: pointer;
+  background-color: #F86061;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.btntwo{
+  cursor: pointer;
+  box-shadow: #676767 0px 0.5px 50px 0.5px;
+  padding: 30px 30px;
+  border: none;
+  border-radius: 50%;
+
+}
+
+.smallSTbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 214px;
+  padding: 10px 5px;
+  border-radius: 25px;
+  color: #F55556;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #fdecec;
+}
+.freshorange{
+  position: absolute;
+  left: 10%;
+  top: 17%;
+  background-color: white;
+  box-shadow: #676767 0px 0.5px 50px 0.5px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 50px 30px;
+  border-radius: 16px;
+  gap: 15px;
+}
+.nameplate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.nameplate h4{
+  color: #2E2E2E;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+}
+.nameplate div{
+  border-bottom: 2px solid;
+  width: 20px;
+  border-color: #FFA610;
+}
+
+.orangeprice{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+.orangeprice h2{
+  font-weight: 700;
+  font-size: 22px;
+  color: #2E2E2E;
+  line-height: 20px;
+}
+.orangeprice span{
+  color: #A5A5A5;
+  font-size: 10px;
+  font-weight: 500;
+}
+.addtocart{
+  position: absolute;
+  top: 53%;
+  left: 15%;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #f54748;
+}
